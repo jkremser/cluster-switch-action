@@ -1,6 +1,6 @@
 apiVersion: v2
 actions:
-  - name: "Switch routing to another cluster"
+  - name: "cluster-switch"
     events:
       - name: "sh.keptn.event.remote-task.cluster-switch.triggered"
     tasks:
